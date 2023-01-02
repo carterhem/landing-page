@@ -40,3 +40,19 @@ a {
   font-size: 24px;
   color: #f9faf8;
 }
+
+#infobox {
+  display: flex;
+}
+
+#quotebox {
+background-color: #E5e7eb;
+}
+
+#calltoactionbox {
+  display: flex;
+}
+
+.infoboxes {
+  display: flex;
+}
