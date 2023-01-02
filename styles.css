@@ -1,5 +1,42 @@
 
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-.header, .footer {
+.headerbar, .headertext, .footer {
   background-color: #1F2937;
+}
+
+.headerbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headertext {
+  display: flex;
+}
+
+.footer {
+  text-align: center;
+  color: #e5e7eb
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
