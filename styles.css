@@ -13,7 +13,7 @@ body {
 
 .headerbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .headertext {
@@ -25,7 +25,8 @@ body {
 
 .footer {
   text-align: center;
-  color: #e5e7eb
+  color: #e5e7eb;
+  padding: 20px 0px 20px;
 }
 
 ul {
@@ -43,6 +44,7 @@ a {
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  padding:10px;
 }
 
 #infobox {
@@ -59,8 +61,10 @@ a {
   flex: 1 1 auto;
   height: 250px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px 140px 20px;
 }
 
 #calltoactionbox {
@@ -105,12 +109,19 @@ button {
   background-color: #3382F6;
   color:#f9faF8;
   border-radius: 6px;
-
 }
 
 .bluebox {
   background-color: #3382F6;
+  color:#f9faF8;
+  border-radius: 4px;
   padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 700px;
+  height: 80px;
+
 }
 
 .left {
@@ -123,4 +134,39 @@ button {
 
 #bottombutton {
   border-color:#f9faF8;
+  padding: 3px 20px 3px;
+  border-width: thin;
+}
+
+#call {
+  font-weight: 800;
+
+}
+
+#callsubtext {
+  font-size: 10px;
+
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footertext {
+  font-weight: 200;
+  font-size: 10px;
+}
+
+#quotetext {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight:100;
+}
+
+#authortag {
+  display:flex;
+  font-weight:1000;
+  margin-left: 775px;
 }
