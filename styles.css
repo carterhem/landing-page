@@ -20,6 +20,7 @@ body {
   display: flex;
   flex: 1 1 auto;
   height: 200px;
+  justify-content: center;
 }
 
 .footer {
@@ -46,6 +47,9 @@ a {
 
 #infobox {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   flex: 1 1 auto;
   height: 250px;
 }
@@ -63,6 +67,8 @@ a {
   display: flex;
   flex: 1 1 auto;
   height: 250px;
+  justify-content: center;
+  align-items: center;
 }
 
 .infoboxes {
@@ -76,4 +82,45 @@ a {
   text-align: center;
   padding: 20px;
   margin: 10px;
+}
+
+.hero {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #E5e7eb;
+}
+
+.infoheader {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+button {
+  background-color: #3382F6;
+  color:#f9faF8;
+  border-radius: 6px;
+
+}
+
+.bluebox {
+  background-color: #3382F6;
+  padding: 10px;
+}
+
+.left {
+  width: 650px;
+}
+
+#topbutton {
+  border-color: #1F2937;
+}
+
+#bottombutton {
+  border-color:#f9faF8;
 }
