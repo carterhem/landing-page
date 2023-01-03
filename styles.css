@@ -19,14 +19,14 @@ body {
 .headertext {
   display: flex;
   flex: 1 1 auto;
-  height: 200px;
+  height: 300px;
   justify-content: center;
 }
 
 .footer {
   text-align: center;
   color: #e5e7eb;
-  padding: 20px 0px 20px;
+  padding: 25px 0px 25px;
 }
 
 ul {
@@ -53,13 +53,13 @@ a {
   align-items: center;
   justify-content: center;
   flex: 1 1 auto;
-  height: 250px;
+  height: 400px;
 }
 
 #quotebox {
   background-color: #E5e7eb;
   flex: 1 1 auto;
-  height: 250px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,7 +70,7 @@ a {
 #calltoactionbox {
   display: flex;
   flex: 1 1 auto;
-  height: 250px;
+  height: 300px;
   justify-content: center;
   align-items: center;
 }
@@ -83,9 +83,9 @@ a {
   background-color: grey;
   color: #e5e7eb;
   font-size: 18px;
-  text-align: center;
+
   padding: 20px;
-  margin: 10px;
+  margin: 10px 10px 100px;
 }
 
 .hero {
@@ -130,12 +130,14 @@ button {
 
 #topbutton {
   border-color: #1F2937;
+  padding: 3px 20px 3px;
+  border-width: thin;
 }
 
 #bottombutton {
-  border-color:#f9faF8;
+  border-color:#E5e7eb;
   padding: 3px 20px 3px;
-  border-width: thin;
+  border-width: normal;
 }
 
 #call {
@@ -163,10 +165,36 @@ p {
   color: #1f2937;
   font-style: italic;
   font-weight:100;
+  padding: 60px 100px 0px;
 }
 
 #authortag {
   display:flex;
   font-weight:1000;
-  margin-left: 775px;
+  margin-left: 550px;
+}
+
+.infoboxshell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.infoitem {
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: #3382F6;
+  margin:10px 20px 10px;
+}
+.infotext {
+  width: 95px;
+  height:auto;
+  font-size:10px;
+  text-align: center;
+}
+
+#imageboxtext {
+  padding:50px 10px 30px;
 }
